@@ -11,11 +11,26 @@
 		79E934F016BD0A3500F4ADE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E934EF16BD0A3500F4ADE2 /* Foundation.framework */; };
 		79E934F216BD0A3500F4ADE2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E934F116BD0A3500F4ADE2 /* CoreGraphics.framework */; };
 		79E934F816BD0A3500F4ADE2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79E934F616BD0A3500F4ADE2 /* InfoPlist.strings */; };
-		79E934FA16BD0A3500F4ADE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E934F916BD0A3500F4ADE2 /* main.m */; };
-		79E934FE16BD0A3500F4ADE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E934FD16BD0A3500F4ADE2 /* AppDelegate.m */; };
 		79E9350016BD0A3500F4ADE2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E934FF16BD0A3500F4ADE2 /* Default.png */; };
 		79E9350216BD0A3500F4ADE2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E9350116BD0A3500F4ADE2 /* Default@2x.png */; };
 		79E9350416BD0A3500F4ADE2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E9350316BD0A3500F4ADE2 /* Default-568h@2x.png */; };
+		79E9350B16BD0A4200F4ADE2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E9350A16BD0A4200F4ADE2 /* QuartzCore.framework */; };
+		79E9351216BD0E7500F4ADE2 /* VjActionBar.mm in Sources */ = {isa = PBXBuildFile; fileRef = 79E9350F16BD0E7500F4ADE2 /* VjActionBar.mm */; };
+		79E9351316BD0E7500F4ADE2 /* VjViewPagerTabController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 79E9351116BD0E7500F4ADE2 /* VjViewPagerTabController.mm */; };
+		79E9351816BD0E7E00F4ADE2 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E9351416BD0E7E00F4ADE2 /* ball.png */; };
+		79E9351916BD0E7E00F4ADE2 /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E9351516BD0E7E00F4ADE2 /* book.png */; };
+		79E9351A16BD0E7E00F4ADE2 /* musicplayer.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E9351616BD0E7E00F4ADE2 /* musicplayer.png */; };
+		79E9351B16BD0E7E00F4ADE2 /* tip.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E9351716BD0E7E00F4ADE2 /* tip.png */; };
+		79E9352B16BD0EA000F4ADE2 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 79E9351D16BD0EA000F4ADE2 /* AppDelegate.mm */; };
+		79E9352C16BD0EA000F4ADE2 /* FirstViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 79E9351F16BD0EA000F4ADE2 /* FirstViewController.mm */; };
+		79E9352D16BD0EA000F4ADE2 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79E9352016BD0EA000F4ADE2 /* FirstViewController.xib */; };
+		79E9352E16BD0EA000F4ADE2 /* FourthViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 79E9352216BD0EA000F4ADE2 /* FourthViewController.mm */; };
+		79E9352F16BD0EA000F4ADE2 /* FourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79E9352316BD0EA000F4ADE2 /* FourthViewController.xib */; };
+		79E9353016BD0EA000F4ADE2 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 79E9352416BD0EA000F4ADE2 /* main.mm */; };
+		79E9353116BD0EA000F4ADE2 /* SecondViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 79E9352616BD0EA000F4ADE2 /* SecondViewController.mm */; };
+		79E9353216BD0EA000F4ADE2 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79E9352716BD0EA000F4ADE2 /* SecondViewController.xib */; };
+		79E9353316BD0EA000F4ADE2 /* ThirdViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 79E9352916BD0EA000F4ADE2 /* ThirdViewController.mm */; };
+		79E9353416BD0EA000F4ADE2 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79E9352A16BD0EA000F4ADE2 /* ThirdViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,13 +40,34 @@
 		79E934F116BD0A3500F4ADE2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		79E934F516BD0A3500F4ADE2 /* VjViewPagerTabController Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VjViewPagerTabController Demo-Info.plist"; sourceTree = "<group>"; };
 		79E934F716BD0A3500F4ADE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		79E934F916BD0A3500F4ADE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		79E934FB16BD0A3500F4ADE2 /* VjViewPagerTabController Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VjViewPagerTabController Demo-Prefix.pch"; sourceTree = "<group>"; };
-		79E934FC16BD0A3500F4ADE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		79E934FD16BD0A3500F4ADE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		79E934FF16BD0A3500F4ADE2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		79E9350116BD0A3500F4ADE2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		79E9350316BD0A3500F4ADE2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		79E9350A16BD0A4200F4ADE2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		79E9350E16BD0E7500F4ADE2 /* VjActionBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VjActionBar.h; path = VjViewPagerTabController/VjActionBar.h; sourceTree = SOURCE_ROOT; };
+		79E9350F16BD0E7500F4ADE2 /* VjActionBar.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = VjActionBar.mm; path = VjViewPagerTabController/VjActionBar.mm; sourceTree = SOURCE_ROOT; };
+		79E9351016BD0E7500F4ADE2 /* VjViewPagerTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VjViewPagerTabController.h; path = VjViewPagerTabController/VjViewPagerTabController.h; sourceTree = SOURCE_ROOT; };
+		79E9351116BD0E7500F4ADE2 /* VjViewPagerTabController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = VjViewPagerTabController.mm; path = VjViewPagerTabController/VjViewPagerTabController.mm; sourceTree = SOURCE_ROOT; };
+		79E9351416BD0E7E00F4ADE2 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ball.png; path = images/ball.png; sourceTree = "<group>"; };
+		79E9351516BD0E7E00F4ADE2 /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = book.png; path = images/book.png; sourceTree = "<group>"; };
+		79E9351616BD0E7E00F4ADE2 /* musicplayer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = musicplayer.png; path = images/musicplayer.png; sourceTree = "<group>"; };
+		79E9351716BD0E7E00F4ADE2 /* tip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tip.png; path = images/tip.png; sourceTree = "<group>"; };
+		79E9351C16BD0EA000F4ADE2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79E9351D16BD0EA000F4ADE2 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		79E9351E16BD0EA000F4ADE2 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		79E9351F16BD0EA000F4ADE2 /* FirstViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FirstViewController.mm; sourceTree = "<group>"; };
+		79E9352016BD0EA000F4ADE2 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		79E9352116BD0EA000F4ADE2 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		79E9352216BD0EA000F4ADE2 /* FourthViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FourthViewController.mm; sourceTree = "<group>"; };
+		79E9352316BD0EA000F4ADE2 /* FourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthViewController.xib; sourceTree = "<group>"; };
+		79E9352416BD0EA000F4ADE2 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		79E9352516BD0EA000F4ADE2 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		79E9352616BD0EA000F4ADE2 /* SecondViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SecondViewController.mm; sourceTree = "<group>"; };
+		79E9352716BD0EA000F4ADE2 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		79E9352816BD0EA000F4ADE2 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		79E9352916BD0EA000F4ADE2 /* ThirdViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ThirdViewController.mm; sourceTree = "<group>"; };
+		79E9352A16BD0EA000F4ADE2 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79E9350B16BD0A4200F4ADE2 /* QuartzCore.framework in Frameworks */,
 				79E934EE16BD0A3500F4ADE2 /* UIKit.framework in Frameworks */,
 				79E934F016BD0A3500F4ADE2 /* Foundation.framework in Frameworks */,
 				79E934F216BD0A3500F4ADE2 /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +105,7 @@
 		79E934EC16BD0A3500F4ADE2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				79E9350A16BD0A4200F4ADE2 /* QuartzCore.framework */,
 				79E934ED16BD0A3500F4ADE2 /* UIKit.framework */,
 				79E934EF16BD0A3500F4ADE2 /* Foundation.framework */,
 				79E934F116BD0A3500F4ADE2 /* CoreGraphics.framework */,
@@ -78,8 +116,22 @@
 		79E934F316BD0A3500F4ADE2 /* VjViewPagerTabController Demo */ = {
 			isa = PBXGroup;
 			children = (
-				79E934FC16BD0A3500F4ADE2 /* AppDelegate.h */,
-				79E934FD16BD0A3500F4ADE2 /* AppDelegate.m */,
+				79E9351C16BD0EA000F4ADE2 /* AppDelegate.h */,
+				79E9351D16BD0EA000F4ADE2 /* AppDelegate.mm */,
+				79E9351E16BD0EA000F4ADE2 /* FirstViewController.h */,
+				79E9351F16BD0EA000F4ADE2 /* FirstViewController.mm */,
+				79E9352016BD0EA000F4ADE2 /* FirstViewController.xib */,
+				79E9352516BD0EA000F4ADE2 /* SecondViewController.h */,
+				79E9352616BD0EA000F4ADE2 /* SecondViewController.mm */,
+				79E9352716BD0EA000F4ADE2 /* SecondViewController.xib */,
+				79E9352816BD0EA000F4ADE2 /* ThirdViewController.h */,
+				79E9352916BD0EA000F4ADE2 /* ThirdViewController.mm */,
+				79E9352A16BD0EA000F4ADE2 /* ThirdViewController.xib */,
+				79E9352116BD0EA000F4ADE2 /* FourthViewController.h */,
+				79E9352216BD0EA000F4ADE2 /* FourthViewController.mm */,
+				79E9352316BD0EA000F4ADE2 /* FourthViewController.xib */,
+				79E9350D16BD0A7600F4ADE2 /* images */,
+				79E9350C16BD0A6D00F4ADE2 /* VjViewPagerTabController */,
 				79E934F416BD0A3500F4ADE2 /* Supporting Files */,
 			);
 			path = "VjViewPagerTabController Demo";
@@ -90,13 +142,35 @@
 			children = (
 				79E934F516BD0A3500F4ADE2 /* VjViewPagerTabController Demo-Info.plist */,
 				79E934F616BD0A3500F4ADE2 /* InfoPlist.strings */,
-				79E934F916BD0A3500F4ADE2 /* main.m */,
+				79E9352416BD0EA000F4ADE2 /* main.mm */,
 				79E934FB16BD0A3500F4ADE2 /* VjViewPagerTabController Demo-Prefix.pch */,
 				79E934FF16BD0A3500F4ADE2 /* Default.png */,
 				79E9350116BD0A3500F4ADE2 /* Default@2x.png */,
 				79E9350316BD0A3500F4ADE2 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79E9350C16BD0A6D00F4ADE2 /* VjViewPagerTabController */ = {
+			isa = PBXGroup;
+			children = (
+				79E9350E16BD0E7500F4ADE2 /* VjActionBar.h */,
+				79E9350F16BD0E7500F4ADE2 /* VjActionBar.mm */,
+				79E9351016BD0E7500F4ADE2 /* VjViewPagerTabController.h */,
+				79E9351116BD0E7500F4ADE2 /* VjViewPagerTabController.mm */,
+			);
+			name = VjViewPagerTabController;
+			sourceTree = "<group>";
+		};
+		79E9350D16BD0A7600F4ADE2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				79E9351416BD0E7E00F4ADE2 /* ball.png */,
+				79E9351516BD0E7E00F4ADE2 /* book.png */,
+				79E9351616BD0E7E00F4ADE2 /* musicplayer.png */,
+				79E9351716BD0E7E00F4ADE2 /* tip.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +228,14 @@
 				79E9350016BD0A3500F4ADE2 /* Default.png in Resources */,
 				79E9350216BD0A3500F4ADE2 /* Default@2x.png in Resources */,
 				79E9350416BD0A3500F4ADE2 /* Default-568h@2x.png in Resources */,
+				79E9351816BD0E7E00F4ADE2 /* ball.png in Resources */,
+				79E9351916BD0E7E00F4ADE2 /* book.png in Resources */,
+				79E9351A16BD0E7E00F4ADE2 /* musicplayer.png in Resources */,
+				79E9351B16BD0E7E00F4ADE2 /* tip.png in Resources */,
+				79E9352D16BD0EA000F4ADE2 /* FirstViewController.xib in Resources */,
+				79E9352F16BD0EA000F4ADE2 /* FourthViewController.xib in Resources */,
+				79E9353216BD0EA000F4ADE2 /* SecondViewController.xib in Resources */,
+				79E9353416BD0EA000F4ADE2 /* ThirdViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,8 +246,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79E934FA16BD0A3500F4ADE2 /* main.m in Sources */,
-				79E934FE16BD0A3500F4ADE2 /* AppDelegate.m in Sources */,
+				79E9351216BD0E7500F4ADE2 /* VjActionBar.mm in Sources */,
+				79E9351316BD0E7500F4ADE2 /* VjViewPagerTabController.mm in Sources */,
+				79E9352B16BD0EA000F4ADE2 /* AppDelegate.mm in Sources */,
+				79E9352C16BD0EA000F4ADE2 /* FirstViewController.mm in Sources */,
+				79E9352E16BD0EA000F4ADE2 /* FourthViewController.mm in Sources */,
+				79E9353016BD0EA000F4ADE2 /* main.mm in Sources */,
+				79E9353116BD0EA000F4ADE2 /* SecondViewController.mm in Sources */,
+				79E9353316BD0EA000F4ADE2 /* ThirdViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +293,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -226,7 +314,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
