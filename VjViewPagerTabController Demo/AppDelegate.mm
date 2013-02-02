@@ -29,6 +29,7 @@
     SecondViewController *viewController2   = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
     ThirdViewController *viewController3    = [[ThirdViewController alloc] initWithNibName:@"ThirdViewController" bundle:nil];
     FourthViewController *viewController4   = [[FourthViewController alloc] initWithNibName:@"FourthViewController" bundle:nil];
+    //Add title and image to tabs
     
     [self.viewController setActionBarImage:[UIImage imageNamed:@"ball.png"] withTitle:@"Tab 1" forViewController:viewController1];
     [self.viewController setActionBarImage:[UIImage imageNamed:@"book.png"] withTitle:@"Tab 2" forViewController:viewController2];
